@@ -1,0 +1,34 @@
+/* flex-reverse: đảo ngược
+row: mặc định đi từ trái sang phải --> row-reverse: đảo ngược lại
+flex-direction: row;
+flex-wrap: nowrap(mặc định sắp xếp từ trái sang phải từ trên xuống dưới, tức là thiếu thì sẽ đẩy xuống dưới)/ wrap-reverse(đẩy lên trên khi thiếu)
+flex-flow:row wrap//???
+
+justify-content: dùng để căn vị trí giữa các item với nhau so với (flex-starts, flex-end, space-betwee(căn chỉnh cái items cách đều nhau cho vừa một hàng), space-around(khá giống between, khác ở chỗ hai bên của nó cũng sẽ cách ra một khoảng, between không cách hai bên) )
+                                                                    (center
+flex-direction: column/ sẽ làm đảo ngược hai vị trí của main và cross
+align-items: dùng để xác định các flex-item(cách chiều dọc). giống tính chất của justify-content(cách chiều ngang)
+align-content(cách chiều dọc): */
+
+/* mặc định của các items có order = 0: 
+ví dụ: .item_3{
+    order: 1--> tất cả các item = 0  sẽ được chuyển lên trên;
+    tương tự với order: 2: --> thì các item = 0 và item = 1 sẽ được chuyển lên trên;
+} */
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    /* flex-wrap:nowrap; */
+    /* justify-content: flex-start; */
+    align-content: flex-start;
+}
+
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+.model{
+    width: 1000px;
+    height: 500px;
+    /* background-color: aqua; */
+    /* opacity: 0.5;  */
+     background-image: url("https://startuanit.net/wp-content/uploads/2021/04/hinh-nen-chiec-o-cho-iphone-23.jpg");
+    /* background-attachment: scroll;
+    background-position: center; */
+    background-repeat: no-repeat; 
+    /* background: url(https://startuanit.net/wp-content/uploads/2021/04/hinh-nen-chiec-o-cho-iphone-23.jpg) no-repeat scroll center blue; */
+    /* background: cách viết gọn của các thuộc tính*/
+    background-size: 100%;
+    /* phải có background-size: 100% Vì nếu không để vậy thì ảnh có thể quá to
+    hoặc quá nhỏ so với cái width-height mà mình set; */
+}
+/* opacity: 0.5; -->làm mờ background; */
+/* background-attachment: fixed -->  h/ả phụ thuộc vào thẻ body */
+
+.bg-color{
+    
+    /* width: 1000px; --> không cần vì thẻ con mặc định sẽ có width bằng với thẻ cha*/
+    height: 100%;
+    background-color: rgb(83, 79, 79);
+    /* opacity: 0.8; */
+    /* opacity sẽ làm mờ tất cả mọi thứ có trong thẻ này nên nếu muốn
+    chữ trong này không bị mờ thì ta cho màu nó nhạt đi và không dùng opacity*/
+}

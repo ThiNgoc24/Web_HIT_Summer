@@ -1,0 +1,41 @@
+
+.box{
+    color: white;
+    width: 750px;
+    height: 450px;
+    
+    background-image:linear-gradient(0, rgba(98, 95, 95, 0.4), rgba(214, 214, 238, 0.4)), url("https://startuanit.net/wp-content/uploads/2021/04/hinh-nen-chiec-o-cho-iphone-23.jpg");
+    margin: 0px auto;
+    margin-top: 150px;
+    
+}
+
+.box1{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.get
+{
+    text-align: center;
+   margin-top: -22px;
+}
+
+.box2{
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    margin: 0px auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 0px #000;
+    margin-top: 75px;
+    
+}
+
+.box2 p{
+    padding-top: 15px;
+}
+

@@ -1,0 +1,53 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.box-cha{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box-con{
+    width: 100px;
+    height:100px;
+    background-color: red;
+}
+
+.box-fixed{
+    background-color: green;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.box3{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.box4:hover{
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}

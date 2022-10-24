@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    background-color: #ddd;
+}
+
+.menu> li >a{
+    padding: 10px 20px;
+    display: block;
+    color: black;
+
+}
+/* a là 1 thẻ inline */
+
+.menu li{
+    position: relative;
+}
+
+.menu >li:hover> a{
+    color: #fff;
+    background-color: red;
+}
+
+.sub-menu{
+    position: absolute;
+    background-color: #ddd;
+    display: none;
+    top: 100%;/*để thanh menu thứ 2 này không chồng lên tag lớp học của menu tos*/
+    left: 0;
+    box-shadow: 0 0 5px red;
+    /* x y z color;
+    x: đổ bóng theo chiều ngang
+    y: đổ theo chiều dọc
+    z:  độ mờ */
+
+}
+
+.sub-menu li a{
+    padding: 10px 20px;
+    display: block;
+    color: black;
+
+}
+
+.sub-menu > li:hover >a,
+ .sub-child-menu >li:hover >a{
+    color: #fff;
+    background-color: red;
+}
+
+.sub-nav:hover .sub-menu
+{
+    display: block;
+}
+
+.sub-child-menu> li >a{
+    padding: 10px 20px;
+    display: block;
+    color: black;
+
+}
+
+.sub-child{
+    position: relative;
+}
+
+.sub-child-menu{
+ 
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.sub-child:hover .sub-child-menu{
+    display: block;
+    background-color: #ddd;
+    color: black;
+}

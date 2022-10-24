@@ -1,0 +1,31 @@
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: SangPhai 3s infinite 2s;
+   
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    transition: all 3s ease-in;/*mọi chuyển động khi chạm vào nó*/
+    margin-top: 20px;
+}
+
+.box:hover{
+    /* width: 500px; */
+
+    transform: translateY(-10px);
+}
+/* 
+@keyframes SangPhai{
+    0%{
+        left: 0;
+    }
+
+    50%{
+        top: 150px;
+    }
+
+    100%{
+        left: 500px;
+    }
+} */
